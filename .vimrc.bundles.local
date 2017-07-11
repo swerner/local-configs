@@ -1,2 +1,5 @@
-Plug 'tpope/vim-cucumber'
 Plug 'altercation/vim-colors-solarized'
+Plug 'jszakmeister/vim-togglecursor'
+Plug 'Peeja/insert_mode_background_color'
+Plug 'tpope/vim-cucumber'
+Plug 'tpope/vim-endwise'
