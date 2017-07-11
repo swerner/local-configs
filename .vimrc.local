@@ -1,15 +1,27 @@
-set visualbell
-set guifont=Menlo:h18
-set notimeout
-set ttimeout ttimeoutlen=100
-set autowriteall                " Save when doing various buffer-switching things.
-autocmd BufLeave,FocusLost * silent! wall
+" Colors
+colorscheme solarized
 if &t_Co == 256
   let g:solarized_termcolors=256
 endif
-
 set background=dark
-colorscheme solarized
+let g:insert_mode_background_color = "#18434E"
+
+" Font
+set guifont=Menlo:h18
+
+" Options
+set visualbell
+set nowrap
+
+" Speed up keycommands
+set notimeout
+set ttimeout ttimeoutlen=100
+
+" Autosave when switching buffers
+set autowriteall         
+autocmd BufLeave,FocusLost * silent! wall
+
+" Override
 set colorcolumn=0
 set textwidth=0
 set ignorecase
