@@ -1,0 +1,16 @@
+set visualbell
+set guifont=Menlo:h18
+set notimeout
+set ttimeout ttimeoutlen=100
+set autowriteall                " Save when doing various buffer-switching things.
+autocmd BufLeave,FocusLost * silent! wall
+if &t_Co == 256
+  let g:solarized_termcolors=256
+endif
+
+set background=dark
+colorscheme solarized
+set colorcolumn=0
+set textwidth=0
+set ignorecase
+set smartcase
