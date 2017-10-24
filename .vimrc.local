@@ -14,7 +14,7 @@ set visualbell
 set nowrap
 
 " Speed up keycommands
-set ttimeout ttimeoutlen=100
+set timeoutlen=1000 ttimeoutlen=0
 
 " Autosave when switching buffers
 set autowriteall         
