@@ -1,3 +1,5 @@
+nmap <C-p> :Files ./<CR>
+
 " Colors
 colorscheme solarized
 if &t_Co == 256
@@ -25,3 +27,26 @@ set colorcolumn=0
 set textwidth=0
 set ignorecase
 set smartcase
+set nocompatible
+set showmatch
+set scrolloff=3
+set expandtab
+set tabstop=2
+
+set incsearch
+set hls
+nnoremap <silent> , :nohlsearch<Bar>:echo<CR>""
+set textwidth=150
+set colorcolumn=
+set timeoutlen=1000 ttimeoutlen=0
+let NERDTreeIgnore=['.*\.so.*']
+let NERDTreeShowLineNumbers=1
+
+" let g:jsx_ext_required = 0
+" let g:prettier#autoformat = 0
+" autocmd BufWritePre *.js,*.json,*.css,*.scss,*.less,*.graphql PrettierAsync
+" set cursorline
+" set history=1024
+" set autoread
+" set ttimeout ttimeoutlen=100
+" let g:insert_mode_background_color = "#18434E"

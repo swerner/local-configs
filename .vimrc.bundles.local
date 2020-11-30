@@ -1,5 +1,6 @@
 Plug 'altercation/vim-colors-solarized'
 Plug 'jszakmeister/vim-togglecursor'
-Plug 'Peeja/insert_mode_background_color'
+Plug 'leafgarland/typescript-vim'
 Plug 'tpope/vim-cucumber'
 Plug 'tpope/vim-endwise'
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
